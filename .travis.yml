@@ -2,6 +2,10 @@ os: linux
 dist: trusty
 sudo: true
 
+arch:
+  - AMD64
+  - ppc64le 
+
 compiler:
   - gcc
 
